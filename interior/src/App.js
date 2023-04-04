@@ -7,6 +7,7 @@ import Project from './Project/Project';
 import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 import NavBar from './NavBar/NavBar';
+import Footer from './Footer/Footer';
 
 
 function App() {
@@ -26,8 +27,9 @@ function App() {
         </header>
 
 
-      <footer>
-      </footer>
+        <footer>
+          <Footer />
+        </footer>
     </div>
   );
 }
