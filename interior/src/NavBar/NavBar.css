@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listItems {
+    display: flex;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.navItem {
+    padding-left: 30px;
+}
+
