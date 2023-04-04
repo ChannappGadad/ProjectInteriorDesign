@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
 import "../NavBar/NavBar.css";
+import Images from '../Images/Images';
+import React from 'react';
 
 const NavBar = () => {
     return(
-        <div>
+        <div className='navigationBar'>
             <ul className='navMenu'>
-                <div>
+                <div className='Logo'>
+                    <img src={Images.logo1} alt='Logo' className='logoImage'/>
                     <a href='#' className='brand'>Interno</a>
                 </div>
                 <div className='listItems'>
@@ -26,6 +29,9 @@ const NavBar = () => {
                     </li>
                     <li className='navItem'>
                         <Link to='Contact/Contact' className="link">Contact</Link>
+                    </li>
+                    <li className='navItem'>
+                         <i class="fa fa-search" aria-hidden="true"></i>
                     </li>
                 </div>
                                                                

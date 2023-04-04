@@ -2,9 +2,15 @@
     margin: 0;
 }
 
+.navMenu {
+    padding: 0 15% 0 15%;
+}
+
+
 li {
     list-style-type: none;
     text-decoration: none;
+    text-align: center;
 }
 
 ul {
@@ -18,7 +24,26 @@ ul {
     padding-right: 40px;
 }
 
+.Logo {
+    padding-top: 15px;
+    display: flex;
+}
+
+.logoImage {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .navItem {
-    padding-left: 30px;
+    padding: 15px 0 0 30px;
+}
+
+.navigationBar {
+    height: 50px;
+    background-color: white;
 }
 

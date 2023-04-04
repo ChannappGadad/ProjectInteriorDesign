@@ -6,7 +6,6 @@ import Services from './Services/Services';
 import Project from './Project/Project';
 import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
-import NavBar from './NavBar/NavBar';
 import Footer from './Footer/Footer';
 
 

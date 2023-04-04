@@ -1,20 +1,47 @@
 import "./Footer.css";
+import Images from "../Images/Images";
 
 const Footer = () => {
+    const logos = [
+        {
+            id: 1,
+            className: "fa fa-sm fa-facebook",
+            title: "Facebook"
+        },
+        {
+            id: 2,
+            className: "fa fa-sm fa-twitter",
+            title: "Twitter"
+        },
+         {
+            id: 3,
+            className: "fa fa-sm fa-linkedin",
+            title: "Linkedin"
+        },
+         {
+            id: 4,
+            className: "fa fa-sm fa-instagram",
+            title: "Instagram"
+        }
+    ]
     return(
         <div class="footer">
             <div class="footer__addr">
-                <h1 class="footer__logo">Interno</h1>
+                <div className="Logo">
+                   <img src={Images.logo1} alt='Logo' className='logoImage'/>
+                    <h1 class="footer__logo">Interno</h1>
+                </div>
             
                 <span className="interna_label">
                     It is a long established fact that a reader<br/>will be distracted lookings.
                 </span>
 
                 <div class="socialMediaLogo">
-                        <i class="fa fa-sm fa-facebook" title="Facebook"></i>
-                        <i class="fa fa-sm fa-twitter" title="Twitter"></i>
-                        <i class="fa fa-sm fa-linkedin" title="Linkedin"></i>
-                        <i class="fa fa-sm fa-instagram" title="Instagram"></i>
+                        {logos.map((items) => {
+                            return(
+                                <i class={items.className} title={items.title}></i>
+                            )
+                        })}
                 </div>
             </div>
   
@@ -79,6 +106,7 @@ const Footer = () => {
                     
                 </li>
             </ul>
+            {/* <label>Copyright © Interno | Designed by Victorflow Templates - Powered by Webflow</label> */}
         </div>
     )
 }
