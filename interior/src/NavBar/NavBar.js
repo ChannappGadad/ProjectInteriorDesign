@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className='navigationBar'>
             <ul className='navMenu'>
                 <div className='Logo'>
-                    <img src={Images.logo1} alt='Logo' className='logoImage'/>
+                    <img src={Images.logo} alt='Logo' className='logoImage'/>
                     <a href='#' className='brand'>Interno</a>
                 </div>
                 <div className='listItems'>

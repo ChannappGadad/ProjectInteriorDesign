@@ -2,6 +2,7 @@ import "../Home/Home.css";
 import NavBar from "../NavBar/NavBar";
 import Images from "../Images/Images";
 import Join from "../WantToJoin/Join";
+import ClientsLogo from "../ClientsLogo/ClientsLogo";
 
 
 const Home = () => {
@@ -128,6 +129,9 @@ const Home = () => {
                         })
                     }
                 </div>   
+            </section>
+            <section>
+                <ClientsLogo/>
             </section>
             <section>
                <Join />
