@@ -1,0 +1,54 @@
+.container {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    color: grey;
+    display: inline-block;
+}
+
+.container div {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 24px;
+}
+
+.container h1 {
+    width: 100%;
+    padding-top: 40px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container p {
+    text-align: center;
+}
+
+.container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 26px 48px; */
+    gap: 10px;
+    width: 219.14px;
+    height: 75px;
+    background: #CDA274;
+    box-shadow: 0px 10px 20px rgba(162, 155, 155, 0.35);
+    border-radius: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contactUs {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

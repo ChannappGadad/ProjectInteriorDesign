@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;1,500;1,900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+  }
 
 .homeImage {
     width: 100%;
@@ -44,7 +48,7 @@
     gap: 10px;
     width: 219.14px;
     height: 75px;
-    background: #292F36;
+    background: #08090a;
     box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
     border-radius: 18px;
     color: white;
@@ -64,10 +68,128 @@
 .overlappedDiv {
     float: left;
     position: absolute;
-    left: 362px;
+    left: 150px;
     top: 362px;
-    z-index: 1000;
     padding: 5px;
     color: #FFFFFF;
     font-weight: bold;
+}
+
+.itemsDesc {
+    display: flex;
+    align-items: stretch;
+    padding: 100px 281px;
+    text-align: center;
+}
+
+.itemsDesc h3{
+    padding-bottom: 20px;
+}
+
+.itemsDesc button {
+    padding-top: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.stylishLiving {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 220px;
+    font-style: normal;
+    font-size: 20px;
+    align-items: center;
+    color: #292F36;
+}
+
+
+.homeStylish {
+    width: 500px;
+    height: 1097px;
+    border-radius: 0 300px 0 80px;
+}
+
+.stylishLiving h2 {
+    padding-bottom: 30px;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.stylishLiving label {
+    font-family: 'Jost';
+    font-size: 22px;
+}
+
+.stylishLiving div {
+    padding: 10px;
+}
+
+.conatcts {
+    display: flex;
+}
+
+.circleBase {
+    border-radius: 50%;
+} 
+
+.type {
+    width: 73px;
+    height: 73px;
+    background: #F4F0EC;
+}
+
+.peopleThink {
+    width: 83%;
+    background-color:#F4F0EC;
+    margin:0 auto;
+}
+
+.peopleThink h1 {
+    background-color: #F4F0EC;
+width: 547px;
+height: 126px;
+/* top: 0px; */
+
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+/* line-height: 125%; */
+text-align: center;
+color: #292F36;
+margin-left: 250px;
+
+}
+
+.profiCont {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profiCont img{
+    border-radius: 120px;
+    width: 50px;
+}
+
+
+.profilDiv p {
+    margin: 30px;
+    line-height: 2;
+}
+
+.profSect {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profilDiv {
+    width: 370px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 10px;
 }
