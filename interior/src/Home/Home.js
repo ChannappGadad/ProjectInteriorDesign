@@ -3,6 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import Images from "../Images/Images";
 import Join from "../WantToJoin/Join";
 import ClientsLogo from "../ClientsLogo/ClientsLogo";
+import ProjectsCompleted from "../ProjectsCompleted/ProjectsCompleted";
 
 
 const Home = () => {
@@ -52,6 +53,37 @@ const Home = () => {
         }
     ]
 
+    const projectItems = [
+        {
+            id:1,
+            img: Images.kitchen,
+            lbl: "Modern Kitchan",
+            txt: "Decor / Artchitecture",
+            imgAlt: "kitchen"
+        },
+        {
+            id:2,
+            img: Images.room,
+            lbl: "Modern Kitchan",
+            txt: "Decor / Artchitecture",
+            imgAlt: "room"
+        },        
+        {
+            id:3,
+            img: Images.desk,
+            lbl: "Modern Kitchan",
+            txt: "Decor / Artchitecture",
+            imgAlt: "desk"
+        },        
+        {
+            id:4,
+            img: Images.hall,
+            lbl: "Modern Kitchan",
+            txt: "Decor / Artchitecture",
+            imgAlt: "hall"
+        }
+    ]
+
     return(
         <div>
             <div>
@@ -93,9 +125,9 @@ const Home = () => {
                         <div className="circleBase type" style={{position: "relative", zIndex: "2"}}>
                             <img src={Images.call} alt='Logo' 
                             style={{position: "absolute", 
-                            top: "20px",
-                            left: "20px",
-                            zIndex: "3"}}/>
+                                top: "20px",
+                                left: "20px",
+                                zIndex: "3"}}/>
                         </div>
                         <div>
                             <h6>012345678</h6>
@@ -132,6 +164,32 @@ const Home = () => {
             </section>
             <section>
                 <ClientsLogo/>
+            </section>
+            <section >
+                <div className="followHeader">
+                    <h1>Follow Our Projects</h1>
+                    <text>It is a long established fact that a reader will be distracted by the of readable <br/>
+                         content of page  lookings at its layouts  points.</text>
+                </div>
+                <div className="followProjects">
+                    {
+                        projectItems.map((proItems) => {
+                            return(
+                                <div className="projectItems">
+                                    <img src={proItems.img} alt={proItems.altText}/>
+                                    <div className="projectLabels">
+                                        <label>{proItems.lbl}</label>
+                                        <text>{proItems.txt}</text>
+                                    </div> 
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+
+            </section>
+            <section>
+                <ProjectsCompleted />
             </section>
             <section>
                <Join />

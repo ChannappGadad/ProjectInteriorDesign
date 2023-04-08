@@ -147,19 +147,18 @@
 
 .peopleThink h1 {
     background-color: #F4F0EC;
-width: 547px;
-height: 126px;
-/* top: 0px; */
+    width: 547px;
+    height: 126px;
+    /* top: 0px; */
 
-font-family: 'DM Serif Display';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-/* line-height: 125%; */
-text-align: center;
-color: #292F36;
-margin-left: 250px;
-
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    /* line-height: 125%; */
+    text-align: center;
+    color: #292F36;
+    margin-left: 250px;
 }
 
 .profiCont {
@@ -192,4 +191,59 @@ margin-left: 250px;
     background: #FFFFFF;
     border-radius: 12px;
     margin-left: 10px;
+}
+
+
+.followProjects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 80%;
+    max-height: 80%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.followProjects img {
+    width: 400px;
+    height: 400px;
+}
+
+.followProjects div {
+    text-align: center;
+}
+
+.followProjects text {
+    font-family: 'Jost';
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.projectLabels {
+    display: flex;
+    flex-direction: column;
+}
+
+.followHeader {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.followHeader h1 {    
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    
+}
+
+.followHeader text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
 }
