@@ -73,10 +73,14 @@ const Services = () => {
 
     ]
     return(
-        <div className="hello">   
+        <div>   
             <NavBar />   
             <div className="imagesHeader">
-             <img src={Images.services} alt="services"/>
+                <img src={Images.services} alt="services"/>
+                <div class="bottomHead">
+                    <h1>Services</h1>
+                    <label>Home / Services</label>
+                </div>
             </div> 
             <div className="itemDesc">
                 {servicesItems.map((items, index) => {

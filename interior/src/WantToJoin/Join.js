@@ -4,7 +4,7 @@ import Images from "../Images/Images";
 const Join = () => {
     return(
         <div className="container">
-            <div>
+            <div className="wantToJoinDiv">
                 <h1>Wanna join the interno?</h1>
                 <p>It is a long established fact  will be distracted.</p>
                 <div className="contactUs">

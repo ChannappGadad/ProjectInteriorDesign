@@ -29,6 +29,7 @@ const Images =  {
     ideaIcon: require('../Images/HowWeWork/ideaicon.png'),
     designIcon: require('../Images/HowWeWork/designicon.png'),
     perfectionIcon: require('../Images/HowWeWork/perfectionicon.png'),
+
     
 
 }   
