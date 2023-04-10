@@ -30,8 +30,10 @@ const Images =  {
     designIcon: require('../Images/HowWeWork/designicon.png'),
     perfectionIcon: require('../Images/HowWeWork/perfectionicon.png'),
 
-    
-
+    mail: require('../Images/mail.png'),
+    globe: require('../Images/globe.png'),
+    contactUsMap: require('../Images/contactUsMap.png'),
+    projectImg: require('../Images/porjectImage.png')
 }   
 
 export default Images;

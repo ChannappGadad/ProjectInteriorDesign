@@ -1,9 +1,6 @@
 import "../ContactForm/ContactForm.css";
 import React from "react";
 
-
-
-
 const ContactForm = () => {
     return(
         <div class="container">

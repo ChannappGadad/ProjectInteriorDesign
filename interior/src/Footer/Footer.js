@@ -28,7 +28,7 @@ const Footer = () => {
         <div class="footer">
             <div class="footer__addr">
                 <div className="Logo">
-                   <img src={Images.logo1} alt='Logo' className='logoImage'/>
+                   <img src={Images.logo} alt='Logo' className='logoImage'/>
                     <h1 class="footer__logo">Interno</h1>
                 </div>
             
