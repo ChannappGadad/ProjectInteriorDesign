@@ -33,7 +33,14 @@ const Images =  {
     mail: require('../Images/mail.png'),
     globe: require('../Images/globe.png'),
     contactUsMap: require('../Images/contactUsMap.png'),
-    projectImg: require('../Images/porjectImage.png')
+    projectImg: require('../Images/porjectImage.png'),
+    projectDescImg: require('../Images/projectDescImg.png'),
+    searchIcon: require('../Images/searchIcon.png'),
+
+    blogImage: require('../Images/Blog/blogImage.png'),
+    blogLatestImage: require('../Images/Blog/blogLatestImg.png'),
+    arrowImage: require('../Images/Blog/arrowImg.png')
+
 }   
 
 export default Images;
