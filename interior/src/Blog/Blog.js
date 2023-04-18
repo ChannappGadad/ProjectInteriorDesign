@@ -4,6 +4,50 @@ import NavBar from "../NavBar/NavBar.js";
 
 
 const Blog = () => {
+    const articleItems = [
+        {
+            id:1,
+            img: "",
+            nameTag: "Kitchan Design",
+            description: "Let’s Get Solution For Building Construction Work",
+            date: "26 December,2022"
+        },
+        {
+            id:2,
+            img: "",
+            nameTag: "Living Design",
+            description: "Low Cost Latest Invented Interior Designing Ideas.",
+            date: "22 December,2022"
+        },
+        {
+            id:3,
+            img: "",
+            nameTag: "Interior Design",
+            description: "Best For Any Office & Business Interior Solution",
+            date: "25 December,2022"
+        },
+        {
+            id:4,
+            img: "",
+            nameTag: "Kitchan Design",
+            description: "Let’s Get Solution For Building Construction Work",
+            date: "26 December,2022"
+        },
+        {
+            id:5,
+            img: "",
+            nameTag: "Living Design",
+            description: "Low Cost Latest Invented Interior Designing Ideas.",
+            date: "22 December,2022 "
+        },
+        {
+            id:6,
+            img: "",
+            nameTag: "Interior Design",
+            description: "Best For Any Office & Business Interior Solution",
+            date: "25 December,2022 "
+        },
+    ]
     return(
         <div>
             <NavBar/>
